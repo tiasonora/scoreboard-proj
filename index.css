@@ -1,0 +1,59 @@
+@font-face {
+    font-family: cursedtimer;
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+
+@font-face {
+    font-family: jerseyclub;
+    src: url(fonts/JerseyClub.otf);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #52b788;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: jerseyclub;
+    font-size: 45px;
+    color: #081c15;
+}
+
+#points-home, #points-guest {
+    background: #0a0001;
+    font-family: cursedtimer;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 130px;
+    height: 110px;
+    margin: -40px auto 5px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+button {
+    background: none;
+    font-family: cursedtimer;
+    font-size: 15px;
+    color: #081c15;
+    width: 38px;
+    height: 38px;
+    border: 2px solid #081c15;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #081c15;
+    color: antiquewhite;
+}
+
+#reset-btn {
+    font-size: 20px;
+    font-weight: bold;
+    width: 140px;
+    margin-top: 50px;
+    padding: 8px 14px 0 16px;
+}
